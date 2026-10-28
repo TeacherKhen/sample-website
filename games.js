@@ -1001,6 +1001,23 @@ async function openGameGuide(game) {
             ['Create or edit your game questions or word sets.','Find Export JSON or Export Data inside the game and save the file on your device.','On another computer, open the same game and choose Load JSON or Import JSON.','Select your saved .json file and check that your content loaded correctly.'].forEach(s=>ol.appendChild(tkEl('li','',s)));
             section.appendChild(ol);section.appendChild(tkEl('p','tk-modal-note','Tip: The exact button names and available export features depend on the game. Keep a backup of your file.'));content.appendChild(section);
         }
+        // Optional detailed sections. All text is rendered safely as text, not HTML.
+        if(Array.isArray(guide.sections)) {
+            guide.sections.forEach(part=>{
+                if(!part || !Array.isArray(part.steps)) return;
+                const section=tkEl('section','tk-guide-section');
+                section.appendChild(tkEl('h3','',part.heading||'More instructions'));
+                const ol=tkEl('ol','tk-guide-steps');
+                part.steps.forEach(step=>ol.appendChild(tkEl('li','',String(step))));
+                section.appendChild(ol);content.appendChild(section);
+            });
+        }
+        if(Array.isArray(guide.tips) && guide.tips.length) {
+            const section=tkEl('section','tk-guide-section');
+            section.appendChild(tkEl('h3','','💡 Helpful reminders'));
+            guide.tips.forEach(tip=>section.appendChild(tkEl('p','tk-modal-note',String(tip))));
+            content.appendChild(section);
+        }
         const id=tkVideoId(guide.video);
         if(id) {
             const section=tkEl('section','tk-guide-section');section.appendChild(tkEl('h3','','▶️ Watch the video tutorial'));
