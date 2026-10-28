@@ -1,0 +1,14 @@
+{
+  "title": "Randomizer",
+  "description": "A teaching tool activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Open Randomizer.",
+    "Enter the names, words, or choices you want to use.",
+    "Choose the random selection tool.",
+    "Start the draw and use the result for your class activity."
+  ],
+  "buttons": [],
+  "jsonHelp": false,
+  "video": "",
+  "videoChannel": ""
+}

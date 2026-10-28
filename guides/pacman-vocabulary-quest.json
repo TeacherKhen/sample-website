@@ -1,0 +1,14 @@
+{
+  "title": "Pacman Vocabulary Quest",
+  "description": "A vocabulary activity for grades 2–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Open the Pacman game.",
+    "Review the vocabulary with your class.",
+    "Use the game controls shown on screen to move.",
+    "Read and answer the vocabulary prompts during play."
+  ],
+  "buttons": [],
+  "jsonHelp": false,
+  "video": "https://www.youtube.com/shorts/R68_V2YAlc0",
+  "videoChannel": ""
+}

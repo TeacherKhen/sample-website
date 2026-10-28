@@ -1,0 +1,42 @@
+{
+  "title": "Halloween Monster Egg",
+  "description": "A review activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Log in with an active Premium account.",
+    "Choose two or three teams and type their names.",
+    "Set the rounds, timer, background, and audio.",
+    "Open Question Editor to add or change questions.",
+    "Click START GAME and follow the instructions.",
+    "Students tap answers to earn gold.",
+    "At the end, check the scores from both rounds."
+  ],
+  "buttons": [
+    {
+      "name": "Question Editor",
+      "meaning": "Add or edit questions, answers, and pictures."
+    },
+    {
+      "name": "Load JSON",
+      "meaning": "Open a previously exported game-data file."
+    },
+    {
+      "name": "Export JSON",
+      "meaning": "Save the questions and settings as a JSON file."
+    },
+    {
+      "name": "START GAME",
+      "meaning": "Begin the Halloween team game."
+    },
+    {
+      "name": "END ROUND",
+      "meaning": "Finish the current round."
+    },
+    {
+      "name": "Full Screen",
+      "meaning": "Show the game using the full screen."
+    }
+  ],
+  "jsonHelp": true,
+  "video": "https://www.youtube.com/shorts/Ui_mwRzRd5U",
+  "videoChannel": ""
+}

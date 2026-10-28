@@ -1,0 +1,14 @@
+{
+  "title": "Interactive Whiteboard [S & D]",
+  "description": "A teaching tool activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Open the interactive whiteboard.",
+    "Choose the writing or drawing tool.",
+    "Write, draw, or explain your lesson on the board.",
+    "Use the on-screen clear or reset controls when needed."
+  ],
+  "buttons": [],
+  "jsonHelp": false,
+  "video": "",
+  "videoChannel": ""
+}

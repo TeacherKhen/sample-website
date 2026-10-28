@@ -1,0 +1,29 @@
+{
+  "title": "Spider Web Reading + Presets",
+  "description": "A phonics activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Log in with an active Premium account.",
+    "Choose a ready-made preset or create your own word set.",
+    "Choose the theme and audio settings.",
+    "Start the reading activity.",
+    "Ask students to read and choose answers.",
+    "Export your custom set if you want to use it on another device."
+  ],
+  "buttons": [
+    {
+      "name": "Presets",
+      "meaning": "Choose a ready-made reading set."
+    },
+    {
+      "name": "Export JSON",
+      "meaning": "Save an edited reading set."
+    },
+    {
+      "name": "Import JSON",
+      "meaning": "Open a saved reading set."
+    }
+  ],
+  "jsonHelp": true,
+  "video": "https://www.youtube.com/shorts/i862XADOSSQ",
+  "videoChannel": ""
+}

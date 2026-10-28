@@ -1,0 +1,20 @@
+{
+  "title": "Balloon Pop",
+  "description": "A review activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Open Balloon Pop.",
+    "Enter the words you want students to practice.",
+    "Choose one or two players and a time limit.",
+    "Start the game.",
+    "Pop the balloons and read the words shown."
+  ],
+  "buttons": [
+    {
+      "name": "Start",
+      "meaning": "Begin popping balloons."
+    }
+  ],
+  "jsonHelp": true,
+  "video": "",
+  "videoChannel": ""
+}

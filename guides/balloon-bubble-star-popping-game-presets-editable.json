@@ -1,0 +1,29 @@
+{
+  "title": "Balloon + Bubble + Star Popping Game + Presets + Editable",
+  "description": "A review activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Log in with an active Premium account.",
+    "Choose Balloon, Bubble, or Star mode.",
+    "Select a preset or add your own words and pictures.",
+    "Choose the players, time, speed, and sound settings.",
+    "Start the game and pop the items to practice reading.",
+    "Export your edited sets for use on another device."
+  ],
+  "buttons": [
+    {
+      "name": "Presets",
+      "meaning": "Choose ready-made words."
+    },
+    {
+      "name": "Export JSON",
+      "meaning": "Save your edited set."
+    },
+    {
+      "name": "Import JSON",
+      "meaning": "Open your saved set."
+    }
+  ],
+  "jsonHelp": true,
+  "video": "",
+  "videoChannel": ""
+}

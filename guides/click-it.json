@@ -1,0 +1,20 @@
+{
+  "title": "Click It!",
+  "description": "A review activity for grades 1–6. Follow these simple steps to use it with your class.",
+  "steps": [
+    "Open Click It!.",
+    "Prepare the words, pictures, or questions for your lesson.",
+    "Choose the game mode and timer if available.",
+    "Start the game.",
+    "Let students tap the correct answers as quickly as they can."
+  ],
+  "buttons": [
+    {
+      "name": "Start Timer",
+      "meaning": "Start a timed round when time mode is selected."
+    }
+  ],
+  "jsonHelp": true,
+  "video": "https://www.youtube.com/shorts/V2yyJeL1HDk",
+  "videoChannel": ""
+}
